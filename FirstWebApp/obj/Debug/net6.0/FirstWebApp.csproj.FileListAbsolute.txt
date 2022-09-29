@@ -24,3 +24,8 @@ C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebA
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\obj\Debug\net6.0\FirstWebApp.pdb
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\obj\Debug\net6.0\FirstWebApp.genruntimeconfig.cache
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\obj\Debug\net6.0\ref\FirstWebApp.dll
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\bin\Debug\net6.0\FirstWebApp.Core.dll
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\bin\Debug\net6.0\FirstWebApp.Data.dll
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\bin\Debug\net6.0\FirstWebApp.Data.pdb
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\bin\Debug\net6.0\FirstWebApp.Core.pdb
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp\obj\Debug\net6.0\FirstWebApp.csproj.CopyComplete

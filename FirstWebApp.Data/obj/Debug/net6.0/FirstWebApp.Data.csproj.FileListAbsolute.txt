@@ -1,0 +1,15 @@
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\bin\Debug\net6.0\FirstWebApp.Data.deps.json
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\bin\Debug\net6.0\FirstWebApp.Data.dll
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\bin\Debug\net6.0\FirstWebApp.Data.pdb
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\bin\Debug\net6.0\FirstWebApp.Core.dll
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\bin\Debug\net6.0\FirstWebApp.Core.pdb
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.csproj.AssemblyReference.cache
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.AssemblyInfoInputs.cache
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.AssemblyInfo.cs
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.csproj.CopyComplete
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.dll
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\refint\FirstWebApp.Data.dll
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\FirstWebApp.Data.pdb
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Data\obj\Debug\net6.0\ref\FirstWebApp.Data.dll

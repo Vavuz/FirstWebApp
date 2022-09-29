@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "FirstWebApp.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FirstWebApp.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstWebApp.Core.dll": {}
+        }
+      },
+      "FirstWebApp.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FirstWebApp.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FirstWebApp.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FirstWebApp.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "FirstWebApp.Core/1.0.0": {
+      "type": "project",
+      "path": "../FirstWebApp.Core/FirstWebApp.Core.csproj",
+      "msbuildProject": "../FirstWebApp.Core/FirstWebApp.Core.csproj"
+    },
+    "FirstWebApp.Data/1.0.0": {
+      "type": "project",
+      "path": "../FirstWebApp.Data/FirstWebApp.Data.csproj",
+      "msbuildProject": "../FirstWebApp.Data/FirstWebApp.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "FirstWebApp.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\MVavassori\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\MVavassori\\OneDrive - AbacusNext\\Desktop\\Training\\FirstWebApp\\FirstWebApp.Data\\FirstWebApp.Data.csproj": {
+              "projectPath": "C:\\Users\\MVavassori\\OneDrive - AbacusNext\\Desktop\\Training\\FirstWebApp\\FirstWebApp.Data\\FirstWebApp.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

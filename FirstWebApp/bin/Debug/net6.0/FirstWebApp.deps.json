@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "FirstWebApp/1.0.0": {
+        "dependencies": {
+          "FirstWebApp.Data": "1.0.0"
+        },
         "runtime": {
           "FirstWebApp.dll": {}
+        }
+      },
+      "FirstWebApp.Core/1.0.0": {
+        "runtime": {
+          "FirstWebApp.Core.dll": {}
+        }
+      },
+      "FirstWebApp.Data/1.0.0": {
+        "dependencies": {
+          "FirstWebApp.Core": "1.0.0"
+        },
+        "runtime": {
+          "FirstWebApp.Data.dll": {}
         }
       }
     }
   },
   "libraries": {
     "FirstWebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirstWebApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FirstWebApp.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
