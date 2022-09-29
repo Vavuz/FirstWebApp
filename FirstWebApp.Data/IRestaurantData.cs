@@ -5,6 +5,7 @@ namespace FirstWebApp.Data
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
+        Restaurant GetById(int id);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -19,6 +20,12 @@ namespace FirstWebApp.Data
                 new Restaurant { Id = 3, Name = "Marco's Tacos", Location = "Inverness", Cuisine = CuisineType.Mexican}
             };
         }
+
+        public Restaurant GetById(int id)
+        {
+            return restaurants.SingleOrDefault(r => r.Id == id);    // Returns either the one restaurant that matches or the default value (null)
+        }
+
         public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
         {
             return from r in restaurants

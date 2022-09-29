@@ -10,7 +10,7 @@
         <div class="input-group">
             <input type="search" class="form-control" asp-for="SearchTerm"/>
             <span class="input-group-btn">
-                <button class="btn btn-default">
+                <button class="btn btn-primary">
                     <i class="glyphicon glyphicon-search"></i>
                 </button>
             </span>
@@ -25,6 +25,11 @@
             <td>@restaurant.Name</td>
             <td>@restaurant.Location</td>
             <td>@restaurant.Cuisine</td>
+            <td>
+                <a class="btn btn-lg" asp-page="./Detail" asp-route-restaurantId="@restaurant.Id">
+                    <i class="btn btn-primary"></i>
+                </a>
+            </td>
         </tr>
     }
 </table>
