@@ -1,9 +1,14 @@
 using FirstWebApp.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContextPool<FirstWebAppDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("FirstWebAppDb"));
+});
 builder.Services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
 
 var app = builder.Build();
