@@ -9,7 +9,8 @@ builder.Services.AddDbContextPool<FirstWebAppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("FirstWebAppDb"));
 });
-builder.Services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+
+builder.Services.AddScoped<IRestaurantData, SqlRestaurantData>();
 
 var app = builder.Build();
 
