@@ -9,6 +9,7 @@ namespace FirstWebApp.Data
         Restaurant Update(Restaurant updatedRestaurant);
         Restaurant Add(Restaurant newRestaurant);
         Restaurant Delete(int id);
+        int GetCOuntOfRestaurants();
         int Commit();
     }
 }

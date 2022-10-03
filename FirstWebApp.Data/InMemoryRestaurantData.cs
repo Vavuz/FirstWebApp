@@ -60,5 +60,10 @@ namespace FirstWebApp.Data
             }
             return restaurant;
         }
+
+        public int GetCOuntOfRestaurants()
+        {
+            return restaurants.Count();
+        }
     }
 }

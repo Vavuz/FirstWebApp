@@ -1,3 +1,4 @@
+C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\obj\Debug\net6.0\refint\FirstWebApp.Core.dll
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\bin\Debug\net6.0\FirstWebApp.Core.deps.json
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\bin\Debug\net6.0\FirstWebApp.Core.dll
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\bin\Debug\net6.0\FirstWebApp.Core.pdb
@@ -7,6 +8,5 @@ C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebA
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\obj\Debug\net6.0\FirstWebApp.Core.AssemblyInfo.cs
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\obj\Debug\net6.0\FirstWebApp.Core.csproj.CoreCompileInputs.cache
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\obj\Debug\net6.0\FirstWebApp.Core.dll
-C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\obj\Debug\net6.0\refint\FirstWebApp.Core.dll
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\obj\Debug\net6.0\FirstWebApp.Core.pdb
 C:\Users\MVavassori\OneDrive - AbacusNext\Desktop\Training\FirstWebApp\FirstWebApp.Core\obj\Debug\net6.0\ref\FirstWebApp.Core.dll
