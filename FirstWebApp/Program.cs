@@ -1,6 +1,7 @@
 using FirstWebApp.Data;
 using Microsoft.EntityFrameworkCore;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -25,15 +26,15 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
+app.UseNodeModules(maxAge: TimeSpan.FromSeconds(600));
+app.UseCookiePolicy();
+
 
 app.UseEndpoints(e =>
 {
     e.MapControllers();
 });
-
-// app.MapControllerRoute(name:"Restaurants", pattern: "{controller}/{action}/{id?}");
 
 app.UseAuthorization();
 
