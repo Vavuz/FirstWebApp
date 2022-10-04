@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - FirstWebApp</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/FirstWebApp.styles.css" asp-append-version="true" />
 </head>
@@ -41,6 +41,7 @@
                 <vc:restaurant-count></vc:restaurant-count>
                 @RenderSection("footer", required: false)
                 <p>&copy; 2022 - FirstWebApp - <a asp-area="" asp-page="/Privacy">Privacy</a></p>
+                <img src="/MyFirstApp_Logo_square.png" />
             </footer>
         </main>
     </div>
@@ -48,7 +49,7 @@
     
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)

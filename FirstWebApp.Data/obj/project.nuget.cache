@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7d/hukpDHMki/JNFeMSP95eSzI9sh1RTg7MMlzcd54WgkJrXL6Lq4DNJY1/NFxcFO7nnJc1DihiODqs23N0e7A==",
+  "dgSpecHash": "bRfJaP1Z1EEIinZi3j80vzNASVEYvHCL2jSm05hsQ0vlnFj4xLQU6BqDESuWfPgyVOWpbTGMi3MvQfbc/+p2cQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\MVavassori\\OneDrive - AbacusNext\\Desktop\\Training\\FirstWebApp\\FirstWebApp.Data\\FirstWebApp.Data.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\MVavassori\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.9\\microsoft.entityframeworkcore.design.6.0.9.nupkg.sha512",
     "C:\\Users\\MVavassori\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.9\\microsoft.entityframeworkcore.relational.6.0.9.nupkg.sha512",
     "C:\\Users\\MVavassori\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.9\\microsoft.entityframeworkcore.sqlserver.6.0.9.nupkg.sha512",
+    "C:\\Users\\MVavassori\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.9\\microsoft.entityframeworkcore.tools.6.0.9.nupkg.sha512",
     "C:\\Users\\MVavassori\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\MVavassori\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\MVavassori\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

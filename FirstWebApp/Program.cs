@@ -5,6 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers();
 builder.Services.AddDbContextPool<FirstWebAppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("FirstWebAppDb"));
@@ -26,6 +27,13 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseEndpoints(e =>
+{
+    e.MapControllers();
+});
+
+// app.MapControllerRoute(name:"Restaurants", pattern: "{controller}/{action}/{id?}");
 
 app.UseAuthorization();
 

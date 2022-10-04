@@ -1,7 +1,5 @@
 ﻿using FirstWebApp.Core;
-using FirstWebApp.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
 namespace FirstWebApp.Data
 {
@@ -9,9 +7,6 @@ namespace FirstWebApp.Data
     {
         public DbSet<Restaurant> Restaurants { get; set; }
 
-        public FirstWebAppDbContext(DbContextOptions<FirstWebAppDbContext> options) : base(options)
-        {
-
-        }
+        public FirstWebAppDbContext(DbContextOptions<FirstWebAppDbContext> options) : base(options) { }
     }
 }

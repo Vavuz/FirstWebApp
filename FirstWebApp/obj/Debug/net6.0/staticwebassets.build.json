@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SfJqXv47Dob3cHdgCOrWUmPRm84Plz9LEnqFKpzPZyk=",
+  "Hash": "jkzT6kmXTaBbCGbtjK7TRg8nGNLdxdV3Cj00NJQYYhg=",
   "Source": "FirstWebApp",
   "BasePath": "_content/FirstWebApp",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\MVavassori\\OneDrive - AbacusNext\\Desktop\\Training\\FirstWebApp\\FirstWebApp\\wwwroot\\MyFirstApp_Logo_square.png",
+      "SourceId": "FirstWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MVavassori\\OneDrive - AbacusNext\\Desktop\\Training\\FirstWebApp\\FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/FirstWebApp",
+      "RelativePath": "MyFirstApp_Logo_square.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\MyFirstApp_Logo_square.png"
     }
   ]
 }
